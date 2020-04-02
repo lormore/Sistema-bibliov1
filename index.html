@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IUPSM Barinas</title>
+    <link rel="shortcut icon" href="img/LOGO_DE_IUPSM_azul.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos5.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Acerca de</a>
+            <a href="#">Admin</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Instituto Universitario Politécnico
+                "Santiago Mariño"</h1>
+            <h2>Biblioteca Virtual</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C335.09,158.38 229.27,-11.34 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+   
+        <section class="contenedor busqueda">
+            <h2 class="titulo">Informes de Pasantías y TG</h2>
+            <div class="contenedor-busqueda">
+                <div class="contenido-busqueda">
+                    <form action="buscar_tesis.php" method="GET" class="form_search">
+                        <input type="text" name="busqueda" id="busqueda" placeholder="Buscar">
+                        <select class="contenido-list" name="">
+                            <option value="titulo">Título</option>
+                            <option value="titulo">Autor</option>
+                        </select>
+                        <input type="submit" value="Buscar" class="btn_search">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="botones">
+            <nav class="carreras">
+                <b href="">Ing. De Sistemas</b>
+                <b href="">Ing. Mecánica</b>
+                <b href="">Ing. Industrial</b>
+                <b href="">Ing. Electrónica</b>
+                <b href="">Ing. Eléctrica</b>
+                <b href="">Ing. Civil</b>
+                <b href="">Arquitectura</b>
+                <b href="">Todos</b>
+            </nav>
+            </div>
+        </section>
+
+        <section class="slider">
+            <div class="slider-contenedor">
+                <div class="slider-test">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatibus!</p>
+                    <img src="img/imgv4.jpg" alt="">
+                    <h3>Name</h3>
+                </div>
+                <div class="slider-test">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, deserunt!</p>
+                    <img src="img/imgv5.jpg" alt="">
+                    <h3>Name</h3>
+                </div>
+                <div class="slider-test">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, deserunt!</p>
+                    <img src="img/imgv7.jpg" alt="">
+                    <h3>Name</h3>
+                </div>
+                <div class="direcciones">
+                    <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                    <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+                </div>
+                <div class="barras">
+                    <span class="barra active" onclick="posicionSlide(1)"></span>
+                    <span class="barra" onclick="posicionSlide(2)"></span>
+                    <span class="barra" onclick="posicionSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+    
+    <footer>
+        <div class="contenedor-footer">
+            <div class="contenedor-foo">
+                <h3>Números Telefónicos</h3>
+                <p>(0273) 532.43.42
+                  - (0273) 532.14.95</p>
+            </div>
+            <div class="contenedor-foo">
+                <h3>Correo Electrónico</h3>
+                <p>barinas@psm.edu.ve</p>
+            </div>
+            <div class="contenedor-foo">
+                <h3>Ubicación</h3>
+                <p>Barinas, Venezuela</p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> Copyright JLJ &copy; 2020</h2>
+    </footer>
+    <script src="principal.js"></script>
+</body>
+
+</html>

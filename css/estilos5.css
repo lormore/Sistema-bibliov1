@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: rgba(7, 89, 167, 0.966);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 400px;
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to right, hsla(41, 98%, 58%, 0.829), hsla(0, 70%, 41%, 0.767), hsla(228, 61%, 26%, 0.699)), url(../img/imgv3.jpg);
+    background: linear-gradient(to right, hsla(41, 98%, 58%, 0.829), hsla(0, 70%, 41%, 0.767), hsla(228, 61%, 26%, 0.699)), url(../img/imgv3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    background-color: #1a2a6c;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 15px;
+    display: block;
+    float: right;
+}
+
+nav>a:hover {
+    background-color: #434343;
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    height: 200px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*ACERCA DE lA BUSQUEDAD*/
+
+.contenedor-busqueda {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor-busqueda .contenido-busqueda {
+    background: hsla(39, 54%, 69%, 0.452);
+    display: flex;
+    width: 90%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-busqueda .contenido-busqueda>.form_search {
+    display: flex;
+    background: hsla(228, 84%, 27%, 0.397);
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contenedor-busqueda .contenido-busqueda .form_search>.btn_search {
+    background: #414141;
+    color: #fff;
+    padding: 10px 25px;
+    border: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.contenedor-busqueda .contenido-busqueda .form_search>.btn_search:hover {
+    background-color: #434343be;
+    text-decoration: none;
+}
+
+/*BOTONES DE CARRERAS*/
+
+.botones .carreras {
+    text-align: justify;
+    padding: 20px 40px 0 0;
+}
+
+.botones .carreras>b {
+    background-color: #1a2a6c;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+.botones .carreras>b:hover {
+    background-color: #434343;
+    text-decoration: underline;
+}
+
+/*SLIDER*/
+
+.slider {
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider-contenedor {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.p{
+text-align: center;
+font-style: normal;
+}
+
+.slider-test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/*FOOTER*/
+
+footer {
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenedor-foo {
+    text-align: center;
+}
+
+.contenedor-foo h3 {
+    color: #fff;
+    border-bottom: 3px solid rgba(250, 152, 40, 0.849);
+    padding-bottom: 1px;
+    margin-bottom: 8px;
+}
+
+.contenedor-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
